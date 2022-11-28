@@ -152,27 +152,40 @@ const TopCategories = () => {
                     </div>
                 </div>
                 <div className="today-deals">
-                    <div className="top-cate d-flex">
-                        <p style={{ margin: '18px', fontWeight: '600' }}>Todays Deal</p>
-                        <p className="hot-deal">Hot</p>
+                    <div>
+                        <div className="top-cate d-flex">
+                            <p style={{ margin: '18px', fontWeight: '600' }}>Todays Deal</p>
+                            <p className="hot-deal">Hot</p>
+                        </div>
                     </div>
-                    <div className="today-collec">
-                        <img src={hill} alt="" />
-                    </div>
-                    <div className="today-collec">
-                        <img style={{ borderTop: 'none', borderBottom: 'none' }} src={watch2} alt="" />
-                    </div>
-                    <div className="today-collec">
-                        <img src={laptop2} alt="" />
+                    <div className="today-collections">
+                        <div className="today-collec">
+                            <img src={hill} alt="" />
+                        </div>
+                        <div className="today-collec">
+                            <img style={{ borderTop: 'none', borderBottom: 'none' }} src={watch2} alt="" />
+                        </div>
+                        <div className="today-collec">
+                            <img style={{borderBottom: 'none' }} src={laptop2} alt="" />
+                        </div>
+                        <div className="today-collec">
+                            <img  src={hill} alt="" />
+                        </div>
+                        <div className="today-collec">
+                            <img style={{ borderTop: 'none', borderBottom: 'none' }} src={watch2} alt="" />
+                        </div>
+                        <div className="today-collec">
+                            <img src={laptop2} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="d-flex women-watch">
                 <div>
-                    <img style={{marginRight:'30px'}} src={womenWatch} alt="" />
+                    <img style={{ marginRight: '30px' }} src={womenWatch} alt="" />
                 </div>
                 <div>
-                    <img style={{marginRight:'30px'}}  src={blanch} alt="" />
+                    <img style={{ marginRight: '30px' }} src={blanch} alt="" />
                 </div>
                 <div>
                     <img src={newWatch} alt="" />

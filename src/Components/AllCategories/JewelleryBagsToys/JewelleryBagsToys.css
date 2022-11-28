@@ -1,0 +1,52 @@
+.electronic-container{
+    height: 1440px;
+    background-color: #F2F3F8;
+}
+.jewellery{
+    height: 670px;
+    background-color: white;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+.jewellery-header{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+.second{
+    display: flex;
+    text-align: left;
+
+    margin-bottom: 10px;
+}
+.second p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.accessories{
+    margin-left: 30px;
+    width: 25%;
+    
+}
+.home-audio{
+    width: 25%;
+    
+    margin-left: 90px; 
+}
+.camera-photo{
+    width: 25%;
+    margin-left: 90px; 
+    
+}
+.body-jew{
+    text-align: left;
+    margin-left: 30px;
+}
+.body-jew p{
+    margin-bottom: 4px;
+}

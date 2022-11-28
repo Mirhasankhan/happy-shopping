@@ -1,0 +1,23 @@
+.flash-container{
+    height: 120px;
+    background-color: #F2F3F8;
+    display: flex;
+}
+.deals{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 800px;
+}
+.flash-links a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: green;
+    font-weight: 700;
+    
+}
+.flash-links{
+    margin-top: 30px;
+    display: inline;
+}

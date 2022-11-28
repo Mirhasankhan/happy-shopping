@@ -85,3 +85,11 @@
     margin-left: 70px;
     margin-top: 20px;
 }
+.today-collections{
+    height: 400px;
+    overflow: scroll;
+    
+}
+.today-collections::-webkit-scrollbar {
+    display: none;
+  }

@@ -13,7 +13,7 @@ import DensitySmallIcon from '@mui/icons-material/DensitySmall';
 
 const Header = () => {
     return (
-        <section>
+        <section className="main-header">
             <div className="d-flex top-header">
                 <div className="d-flex">
                     <img className="lan-img" src={eng} alt="" />
@@ -41,48 +41,51 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="d-flex mt-3 second-header">
-                <div className="d-flex ms-5 ps-5">
-                    <img style={{ height: '50px' }} src={kitkat} alt="" />
-                    <DensitySmallIcon></DensitySmallIcon>
-                </div>
-                <div className="d-flex ps-3">
-                    <input className="inputss" type="text" placeholder="I am shopping for..." />
-                    <button className="search-button"><SearchIcon></SearchIcon></button>
-                </div>
-                <div className="d-flex">
-                    <div className="d-flex">
-                        <div style={{ margin: '5px', paddingLeft: '5px', paddingTop: '5px' }}><LoopIcon></LoopIcon></div>
-                        <div>
-                            <button className="com-button">0</button>
-                            <p style={{ textAlign: 'left', fontSize: '13px', fontWeight: '100' }}>Compare</p>
-                        </div>
+            <div className="second-third">
+                <div className="d-flex mt-3 second-header">
+                    <div className="d-flex ms-5 ps-5">
+                        <img style={{ height: '50px' }} src={kitkat} alt="" />
+                        <DensitySmallIcon></DensitySmallIcon>
                     </div>
-                    <div style={{ margin: '5px', paddingLeft: '5px', paddingTop: '5px' }}><FavoriteBorderIcon></FavoriteBorderIcon></div>
-                    <div>
-                        <button className="com-button">0</button>
-                        <p style={{ textAlign: 'left', fontSize: '13px', fontWeight: '100' }}>Wishlist</p>
+                    <div className="d-flex ps-3">
+                        <input className="inputss" type="text" placeholder="I am shopping for..." />
+                        <button className="search-button"><SearchIcon></SearchIcon></button>
                     </div>
                     <div className="d-flex">
-                        <div style={{ margin: '5px', paddingLeft: '5px', paddingTop: '5px' }}><ShoppingCartIcon></ShoppingCartIcon></div>
+                        <div className="d-flex">
+                            <div style={{ margin: '5px', paddingLeft: '5px', paddingTop: '5px' }}><LoopIcon></LoopIcon></div>
+                            <div>
+                                <button className="com-button">0</button>
+                                <p style={{ textAlign: 'left', fontSize: '13px', fontWeight: '100' }}>Compare</p>
+                            </div>
+                        </div>
+                        <div style={{ margin: '5px', paddingLeft: '5px', paddingTop: '5px' }}><FavoriteBorderIcon></FavoriteBorderIcon></div>
                         <div>
                             <button className="com-button">0</button>
-                            <p style={{ textAlign: 'left', fontSize: '13px', fontWeight: '100' }}>Cart</p>
+                            <p style={{ textAlign: 'left', fontSize: '13px', fontWeight: '100' }}>Wishlist</p>
                         </div>
+                        <div className="d-flex">
+                            <div style={{ margin: '5px', paddingLeft: '5px', paddingTop: '5px' }}><ShoppingCartIcon></ShoppingCartIcon></div>
+                            <div>
+                                <button className="com-button">0</button>
+                                <p style={{ textAlign: 'left', fontSize: '13px', fontWeight: '100' }}>Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="third-header">
+                    <div className="anchorss">
+                        <a href="/">Home</a>
+                        <a href="/flash-sale">Flash Sale</a>
+                        <a href="/coupons">Coupons</a>
+                        <a href="/categories">All Categories</a>
+                        <a href="/brands">All Brands</a>
+                        <a href="/sellers">Alll Sellers</a>
+                        <a href="/blog">Blogs</a>
                     </div>
                 </div>
             </div>
-            <div className="third-header">
-                <div className="anchorss">
-                    <a href="/">Home</a>
-                    <a href="/flash-sale">Flash Sale</a>
-                    <a href="/coupons">Coupons</a>
-                    <a href="/categories">All Categories</a>
-                    <a href="/brands">All Brands</a>
-                    <a href="/sellers">Alll Sellers</a>
-                    <a href="/blog">Blogs</a>
-                </div>
-            </div>
+
         </section>
 
     );

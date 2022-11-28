@@ -1,3 +1,10 @@
+/* .main-header{
+    background-color: white;
+    position: fixed;
+    
+    width: 100%;
+    z-index: 2;
+} */
 .top-header{
     border-bottom: 1px solid lightgray;
 }
@@ -14,9 +21,20 @@
     color: grey;
     
 }
+/* .second-third{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+   
+    z-index: 1;
+} */
 .second-header{
     height: 70px;
     border-bottom: 1px solid #F2F3F8;
+    background-color: white; 
+   
+    
 }
 .log-reg{
     border-left: 1px solid gray;
@@ -51,6 +69,8 @@
 }
 .third-header{
     height: 45px;
+    
+    
 }
 .anchorss a{
     text-decoration: none;

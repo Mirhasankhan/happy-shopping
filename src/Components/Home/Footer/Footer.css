@@ -1,7 +1,51 @@
 .footer-container{
-    height: 400px;
-    background-color: black;
+    height: 350px;
+    background-color: #0D111B;
 }
 .foot p{
     color: white;
+    text-align: left;
+    font-size: 13px;
+}
+.foot{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.inputs{
+    height: 40px;
+    width: 255px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.subs-button{
+    background-color: #F05A28;
+    height: 40px;
+    color: white;
+    border: 1px solid #F05A28;
+    border-radius: 5px;
+    width: 105px;
+}
+.subscribe{
+    margin-left: 130px;
+    margin-top: 70px;
+}
+.account a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.account a:hover{
+    color: white;
+}
+.copyright{
+    background-color: #0d111bc7;
+    height: 70px;
+    display: flex;
+}
+.fb-icon{
+    color: blue;
+    margin-right: 30px;
+   
 }
